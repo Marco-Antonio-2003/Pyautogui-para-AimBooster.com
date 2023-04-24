@@ -4,6 +4,15 @@ import keyboard
 import win32api
 import win32con
 
+"""
+Não esquece de baixar os pacotes, use um ambiente virtual.
+
+Você pode mudar as posições "region" usando o codigo "displayMousePosition()"
+abaixo, pode variar de acordo com a resolução de seu monitor.
+Só clicar no play e ver a evolução do código, por favor melhore ele para brincar.
+Essa é o minha primeira vez usando o pyautogui então por isso há no que melhorar :) .
+"""
+
 def click(x,y):
     win32api.SetCursorPos((x,y))
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,0,0)
@@ -31,11 +40,7 @@ while keyboard.is_pressed('c')== False:
             break
 
 
-"""
 
-
-
-"""
 
 
 """while True:
