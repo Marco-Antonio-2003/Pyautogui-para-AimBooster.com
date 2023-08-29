@@ -43,8 +43,9 @@ while keyboard.is_pressed('c')== False:
 
 
 
-"""while True:
-    pyautogui.displayMousePosition()
+"""
+while True:
+    pa.displayMousePosition()
 
 """
 sc = pa.screenshot(region=(275,470,800,560))
